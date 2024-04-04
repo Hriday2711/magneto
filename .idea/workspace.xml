@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f05d2cd-a22d-4312-808b-84363b3b0d72" name="Changes" comment="second commit - setting up the project dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+    <list default="true" id="2f05d2cd-a22d-4312-808b-84363b3b0d72" name="Changes" comment="third commit - setting up the project dependencies">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/actions/CommonActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/interfaces/CommonActionsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/CommonActionSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,6 +84,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712024620531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit - setting up the project dependencies">
+      <created>1712091787820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712091787820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit - setting up the project dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit - setting up the project dependencies" />
+    <MESSAGE value="third commit - setting up the project dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit - setting up the project dependencies" />
   </component>
 </project>
