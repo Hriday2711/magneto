@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f05d2cd-a22d-4312-808b-84363b3b0d72" name="Changes" comment="third commit - setting up the project dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/actions/CommonActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/interfaces/CommonActionsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/CommonActionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/HomePage.feature" afterDir="false" />
+    <list default="true" id="2f05d2cd-a22d-4312-808b-84363b3b0d72" name="Changes" comment="fourth commit - Setting up a sample test script">
+      <change afterPath="$PROJECT_DIR$/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/actions/CommonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/actions/CommonActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/interfaces/CommonActionsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/interfaces/CommonActionsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/steps/CommonActionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/steps/CommonActionSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum/utils/DataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,31 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Cucumber-TestNG-Runner" type="TestNG">
+      <module name="MEC-Automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-DappURL=&quot;https://magento.softwaretestingboard.com/&quot; -Dbrowser=&quot;chrome&quot; -DImplicitWait=10" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712091787820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fourth commit - Setting up a sample test script">
+      <created>1712270964688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270964688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +181,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit - setting up the project dependencies" />
     <MESSAGE value="third commit - setting up the project dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit - setting up the project dependencies" />
+    <MESSAGE value="fourth commit - Setting up a sample test script" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit - Setting up a sample test script" />
   </component>
 </project>
